@@ -1,0 +1,56 @@
+{
+  "business":[
+    {
+      "id":1,
+      "name": "droguería"
+    },
+    {
+      "id": 2,
+      "name": "distribuidora"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "medicina",
+      "idBusiness": 1
+    },
+    {
+      "id": 2,
+      "name": "suplemento",
+      "idBusiness": 1
+    },
+    {
+      "id": 3,
+      "name": "soda",
+      "idBusiness": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "medicina 1",
+      "price": 142,
+      "idBusiness": 1
+    },
+    {
+      "id": 2,
+      "name": "medicina 2",
+      "price": 142,
+      "idBusiness": 1
+    },
+    {
+      "id": 3,
+      "name": "suplemento 1",
+      "price": 142,
+      "idBusiness": 2
+    },
+    {
+      "id": 4,
+      "name": "suplemento 2",
+      "price": 142,
+      "idBusiness": 2
+    }
+    
+  ]
+}
